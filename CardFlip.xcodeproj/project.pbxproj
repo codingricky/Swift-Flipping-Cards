@@ -11,8 +11,8 @@
 		9C20DC6C1988C0A0006B01D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C20DC6B1988C0A0006B01D2 /* ViewController.swift */; };
 		9C20DC6F1988C0A0006B01D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C20DC6D1988C0A0006B01D2 /* Main.storyboard */; };
 		9C20DC711988C0A0006B01D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C20DC701988C0A0006B01D2 /* Images.xcassets */; };
-		9C20DC881988C1E2006B01D2 /* Card-Back-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C20DC871988C1E2006B01D2 /* Card-Back-01.png */; };
-		9C20DC8A1988C1EB006B01D2 /* c01.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C20DC891988C1EB006B01D2 /* c01.png */; };
+		9C20DC881988C1E2006B01D2 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C20DC871988C1E2006B01D2 /* back.png */; };
+		9C20DC8A1988C1EB006B01D2 /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C20DC891988C1EB006B01D2 /* front.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,8 +33,8 @@
 		9C20DC6E1988C0A0006B01D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C20DC701988C0A0006B01D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9C20DC761988C0A0006B01D2 /* CardFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C20DC871988C1E2006B01D2 /* Card-Back-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Card-Back-01.png"; sourceTree = "<group>"; };
-		9C20DC891988C1EB006B01D2 /* c01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c01.png; sourceTree = "<group>"; };
+		9C20DC871988C1E2006B01D2 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		9C20DC891988C1EB006B01D2 /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +96,8 @@
 		9C20DC861988C1D8006B01D2 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				9C20DC891988C1EB006B01D2 /* c01.png */,
-				9C20DC871988C1E2006B01D2 /* Card-Back-01.png */,
+				9C20DC891988C1EB006B01D2 /* front.png */,
+				9C20DC871988C1E2006B01D2 /* back.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -182,9 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C20DC881988C1E2006B01D2 /* Card-Back-01.png in Resources */,
+				9C20DC881988C1E2006B01D2 /* back.png in Resources */,
 				9C20DC6F1988C0A0006B01D2 /* Main.storyboard in Resources */,
-				9C20DC8A1988C1EB006B01D2 /* c01.png in Resources */,
+				9C20DC8A1988C1EB006B01D2 /* front.png in Resources */,
 				9C20DC711988C0A0006B01D2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
